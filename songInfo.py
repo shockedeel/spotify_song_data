@@ -1,15 +1,20 @@
-class songInfo:
-    def __init__(self,date=None,id=None,timestamp=None,name=None):
-        self.date=date
-        self.id=id
-        self.timestamp=timestamp
-        self.name=name
-    def getDate(self):
+class songInfo(object):
+    def __init__(self, date=None, id=None, timestamp=None, name=None):
+        self.date = date
+        self.id = id
+        self.timestamp = timestamp
+        self.name = name
+
+    def get_date(self):
         return self.date
-    def getId(self):
+
+    def get_id(self):
         return self.id
-    def getTimestamp(self):
+
+    def get_timestamp(self):
         return self.timestamp
-    def getName(self):
+
+    def get_name(self):
         return self.name
+
 
