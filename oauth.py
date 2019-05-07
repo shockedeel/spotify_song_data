@@ -1,8 +1,8 @@
 import spotipy
 import sys
 import spotipy.util as util
-client_id = '9e23b30554fc4bd0afc80be9ec980061'
-client_secret = '191e5a4b37234dfc99e7a551820c5485'
+client_id = ''
+client_secret = ''
 scopes = 'user-read-recently-played'
 redirect_uri = 'https://google.com/'
 
