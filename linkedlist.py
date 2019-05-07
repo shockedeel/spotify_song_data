@@ -1,7 +1,6 @@
 import node
 
 
-
 class linkedlist(object):
 
     head: node
@@ -13,8 +12,9 @@ class linkedlist(object):
         #adds to front of list
         #why? faster in the long run with more recent things added first
         n = node.node(data=data)
+
         if self.head is None:
-            head = n
+            self.head = n
             return
         temp = self.head
         self.head = n
@@ -29,6 +29,7 @@ class linkedlist(object):
         print(type(iter))
         while iter is not None:
             print(iter.data.get_id())
+            iter=iter.get_next()
 
 
 
